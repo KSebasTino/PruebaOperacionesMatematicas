@@ -2,8 +2,8 @@ class OperacionesAritmeticas:
     def suma(self, sumando1, sumando2):
         return sumando1 + sumando2
 
-    def division(self, dividendo, divisor):
+    def mcm(self, dato1, dato2):
         try:
-            return dividendo / divisor
+            return dato1 * dato2
         except ZeroDivisionError:
             return "Error: No se puede dividir entre cero"
